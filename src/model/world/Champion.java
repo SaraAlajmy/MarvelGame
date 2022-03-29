@@ -26,8 +26,8 @@ public class Champion {
 	public String getName() {
 		return name;
 	}
-	public int setMana() {
-		return mana;
+	public void setMana(int mn) {
+		mana = mn;
 	}
 	public int getMaxHP() {
 		return maxHP;
@@ -38,8 +38,8 @@ public class Champion {
 	public int getMana() {
 		return mana;
 	}
-	public int setCurrentActionPoints() {
-		return currentActionPoints;
+	public void setCurrentActionPoints(int pts) {
+		currentActionPoints=pts;
 	}
 	public int getMaxActionPointsPerTurn() {
 		return maxActionPointsPerTurn;
