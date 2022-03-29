@@ -158,6 +158,7 @@ public class Game {
 
 			thisLine = br.readLine();
 		}
+		br.close();
 	}
 
 	public static void loadChampions(String filePath) throws Exception {
@@ -191,6 +192,7 @@ public class Game {
 			 abilities.add(getMatchingAbility(ability3));
 			thisLine = br.readLine();
 		}
+		br.close();
 	}
 	public static Ability getMatchingAbility(String abilityX) {
 		for(int i=0;i<availableAbilities.size();i++) {
